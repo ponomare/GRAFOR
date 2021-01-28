@@ -71,7 +71,7 @@ namespace GraforSrc_Test2
             graforRegions[0].AddCurve(SetCurve(4, 3, new List<double>() { 2857.0, 2851, 2851, 2859, 2863.7 }));       //Fri, 05/15/2020
 
             // set data for region[1]
-            graforRegions[1].AddCurve(SetCurve(0, 1, new List<double>() { 2668, 2687, 2693, 2675, 2658 }));//Tue, 04/07/2020
+            graforRegions[1].AddCurve(SetCurve(7, 1, new List<double>() { 2668, 2687, 2693, 2675, 2658 }));//Tue, 04/07/2020
         }
 
         private TCurve SetCurve(int crvIndex, int width, List<double> yInput)

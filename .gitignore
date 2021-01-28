@@ -1,2 +1,4 @@
+*/**/*.pdb
 *.doc
 *.docx
+GraforWpfDll/obj/**/*
