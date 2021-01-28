@@ -1,0 +1,16 @@
+﻿<Window x:Class="GraforSrc_Test2.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:grafor="clr-namespace:GraforWpfDll;assembly=GraforWpfDll"
+        Icon="/GraforWpfDll;component/Grafor_app.ICO"  
+        Title="MainWindow" Height="700" Width="1000" WindowStartupLocation="CenterScreen"
+         >
+    <!--Define GraforWpfDll in other project as "-->
+    <!--xmlns:grafor="clr-namespace:GraforWpfDll;assembly=GraforWpfDll"-->
+    <!--And call it like this -->
+    <!--<grafor:GraforPage x:Name="ctlGraforPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">-->
+    <DockPanel>
+            <grafor:GraforPage x:Name="ctlGraforPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+    </DockPanel>
+
+</Window>

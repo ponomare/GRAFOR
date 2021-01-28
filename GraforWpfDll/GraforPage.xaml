@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="GraforWpfDll.GraforPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+              xmlns:local="clr-namespace:GraforWpfDll"
+        xmlns:uc="clr-namespace:GraforWpfDll.UserControls"
+             >
+    <!--x:Name="GraforPageWindow"-->
+    <!--Title="GraforPage" Height="700" Width="900" MinHeight="500" MinWidth="700" 
+        Icon="/GraforWpfDll;component/Grafor_app.ICO"  
+        ShowActivated="True" WindowStartupLocation="CenterScreen" Closing="Window_Closing"
+        >-->
+    <!--    Icon="/GraforWpfDll;component/Icons/Grafor_page.ico"  -->
+    <!--    Icon="/Grafor_app.ICO"-->
+    <!--    <Image Source="/GraforWpfDll;component/Icons/disk_save.png" />-->
+
+    <!--<Window.CommandBindings>
+        -->
+    <!--CommandBinding Command="ApplicationCommands.Close" Executed="ApplicationClose" /-->
+    <!--
+        <CommandBinding Command="ApplicationCommands.Open"  Executed="AddNewRegion" />
+        <CommandBinding Command="ApplicationCommands.Save"  Executed="WriteDBToCSVFIle" CanExecute="WriteDBToCSVFIle_CanExecute"/>
+        <CommandBinding Command="EditingCommands.ToggleBold"  Executed="SetFontWeight" />
+        <CommandBinding Command="EditingCommands.ToggleItalic"  Executed="SetFontStyle" />
+        <CommandBinding Command="EditingCommands.ToggleUnderline"  Executed="SetFontDecoration" />
+    </Window.CommandBindings>-->
+    <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border BorderBrush="Green" BorderThickness="2" Margin="10">
+            <Grid Margin="0,0,2,2" x:Name ="PageGrid" ClipToBounds="False" 
+                  Background="AliceBlue" SizeChanged="grdPage_SizeChanged" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Canvas  Name="PageCanvas" ClipToBounds="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background ="Transparent" 
+                         MouseLeftButtonUp="PageCanvas_MouseLeftButtonUp" MouseLeftButtonDown="PageCanvas_MouseLeftButtonDown" 
+                         MouseRightButtonDown="PageCanvas_MouseRightButtonDown" MouseRightButtonUp ="PageCanvas_MouseRightButtonUp" 
+                         MouseMove="PageCanvas_MouseMove" />
+                <!--uc:GraforRegion x:Name="grRegion"/-->
+            </Grid>
+        </Border>
+
+
+    </DockPanel>
+</UserControl>

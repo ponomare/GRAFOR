@@ -1,0 +1,10 @@
+﻿<Window x:Class="GraforSrc_Test1.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/GraforWpfDll;component/Grafor_app.ICO"  
+        Title="MainWindow" Height="80" Width="177" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical" >
+        <Button Content="Start Two Regions" HorizontalAlignment="Center"  Name="button1" VerticalAlignment="Center" Width="177" Click="button1_Click" />
+        <Button Content="ReDraw Page" HorizontalAlignment="Center"  Name="button2" VerticalAlignment="Center" Width="177" Click="button2_Click" />
+    </StackPanel>
+</Window>

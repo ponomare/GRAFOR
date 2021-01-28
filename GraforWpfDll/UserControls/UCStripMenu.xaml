@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="GraforWpfDll.UserControls.UCStripMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GraforWpfDll"
+             mc:Ignorable="d"> 
+    <Menu>
+        <MenuItem Header="_Curves">
+            <MenuItem Header ="_Add curve to Region" Command="ApplicationCommands.Open" ToolTip="Add existing curve to the active region">
+                <MenuItem Header ="Read data from _File" Command="ApplicationCommands.Open" ToolTip="Read curve data from local file"/>
+                <MenuItem Header ="Read data from _Web" Command="ApplicationCommands.Save" ToolTip="Read curve data from web file" />
+                <Separator />
+                <MenuItem Header ="_Drag and drop data file" Command="ApplicationCommands.Save" ToolTip="Drag and drop file with curve data on the region" />
+            </MenuItem>
+
+            <Separator />
+            <MenuItem Header ="Delete all curves" Command="ApplicationCommands.Save" ToolTip="Delete all curves from active region" />
+        </MenuItem>
+        <MenuItem Header="_Edit">
+            <MenuItem Command="ApplicationCommands.Undo" />
+            <MenuItem Command="ApplicationCommands.Redo" />
+            <Separator />
+            <MenuItem Command="ApplicationCommands.Cut" />
+            <MenuItem Command="ApplicationCommands.Copy" />
+            <MenuItem Command="ApplicationCommands.Paste" />
+            <MenuItem Command="EditingCommands.Delete" />
+            <MenuItem Header ="_Save Data into file" Command="ApplicationCommands.Save" ToolTip="Save Region into File" />
+            <Separator />
+            <MenuItem Command="ApplicationCommands.Close" />
+        </MenuItem>
+        <MenuItem Header="_Help">
+            <MenuItem Command="ApplicationCommands.Help" />
+            <MenuItem Header="_About" Click="About_Click"/>
+             <!--MenuItem  Header="_Wordwrap" IsCheckable="True"  Name="menuItemWordWrap" Command="local.AllCustomCommands.WordWrapCommand"/-->
+            <!--MenuItem Header="_Exit" Command="local:AllCustomCommands.ExitCommand"/-->
+        </MenuItem>
+    </Menu>
+
+</UserControl>

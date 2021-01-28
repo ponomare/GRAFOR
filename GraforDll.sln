@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraforWpfDll", "GraforWpfDll\GraforWpfDll.csproj", "{3C2580C5-6A78-46DC-9E6B-1752CBE03F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraforSrc_Test2", "GraforSrc_Test2\GraforSrc_Test2.csproj", "{FC192413-6030-420B-BEBD-80F3EB99B7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2580C5-6A78-46DC-9E6B-1752CBE03F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2580C5-6A78-46DC-9E6B-1752CBE03F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2580C5-6A78-46DC-9E6B-1752CBE03F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2580C5-6A78-46DC-9E6B-1752CBE03F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC192413-6030-420B-BEBD-80F3EB99B7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC192413-6030-420B-BEBD-80F3EB99B7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC192413-6030-420B-BEBD-80F3EB99B7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC192413-6030-420B-BEBD-80F3EB99B7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
