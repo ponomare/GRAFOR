@@ -1,5 +1,5 @@
 GraforSrc_Test2/obj/Debug/GraforDllTest2.pdb
-*/**/*.pdb
+**/*.pdb
 *.doc
 *.docx
 GraforSrc_Test2/obj/**/*.*
