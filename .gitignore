@@ -3,4 +3,5 @@ GraforSrc_Test2/obj/Debug/GraforDllTest2.pdb
 *.doc
 *.docx
 GraforSrc_Test2/obj/**/*.*
-GraforSrc_Test2/**/*.*
+GraforSrc_Test2/bin/**/*.*
+!GraforSrc_Test2/bin/Debug/GraforWpfDll.dll
