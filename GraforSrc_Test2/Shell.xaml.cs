@@ -65,7 +65,7 @@ namespace GraforSrc_Test2
             //graforRegions[0].AddCurve(SetCurve(4, 2, new List<double>() { 2862.5, 2855.5, 2854.48, 2852, 2848 })); //Wed, 05/06/2020
             //graforRegions[0].AddCurve(SetCurve(3, 2, new List<double>() { 2881.2, 2877.5, 2880.9, 2882, 2881.1 })); //Thu, 05/07/2020
             graforRegions[0].AddCurve(SetCurve(5, 1, new List<double>() { 2923.5, 2928.5, 2927.6, 2928.5, 2929.8 })); //Fri, 05/08/2020
-            //graforRegions[0].AddCurve(SetCurve(5, 2, new List<double>() { 2938.9, 2936.07, 2937.5, 2935.9, 2930.19})); //Mon, 05/11/2020
+            //graforRegions[0].AddCurve(SetCurve(8, 2, new List<double>() { 2938.9, 2936.07, 2937.5, 2935.9, 2930.19})); //Mon, 05/11/2020
             //graforRegions[0].AddCurve(SetCurve(3, 2, new List<double>() { 2900.81, 2889.06, 2881.97, 2879.68, 2869.76 })); //Tue, 05/12/2020
             //graforRegions[0].AddCurve(SetCurve(7, 2, new List<double>() { 2800.5, 2809.4, 2808.8, 2814.42, 2820.0 }));       //Wed, 05/13/2020
             graforRegions[0].AddCurve(SetCurve(4, 3, new List<double>() { 2857.0, 2851, 2851, 2859, 2863.7 }));       //Fri, 05/15/2020
